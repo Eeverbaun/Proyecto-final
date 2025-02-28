@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<link rel="stylesheet" href="/css/sistema.css">
+</style>
+</head>
+<body>
+
+<div class="menu">
+<h1>Menú de Sonido</h1>
+<audio id="miAudio" src="/utiles/03. Character Creation.mp3" preload="auto"></audio>
+<br>
+<button onclick="playAudio()">Reproducir</button>
+<button onclick="pauseAudio()">Pausar</button>
+<button onclick="stopAudio()">Detener</button>
+</div>
+
+<script>
+var audio = document.getElementById('miAudio');
+
+function playAudio() {
+audio.play();
+}
+
+function pauseAudio() {
+audio.pause();
+}
+
+function stopAudio() {
+audio.pause();
+audio.currentTime = 0;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+body{
+    background-image: url(/utiles/salir.png);
+    background-size: cover;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/utiles/personajes.jpg);
+    background-size: cover;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.botonera {
+    margin-top: 370px;
+    display: flex;
+}
+
+ul{
+    margin-top: 10px;
+
+}
+
+a {
+    display: inline-block;
+    width: 180px;
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+a:hover{
+    background-color: crimson;
+    border: 2px solid green;
+}

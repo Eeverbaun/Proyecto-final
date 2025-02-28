@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 
-
 body {
-    background-image: url(/img/elden-ring-start-game.png);
+    background-image: url(/utiles/elden.jpg);
     background-size: cover;
     
 }
@@ -17,19 +16,27 @@ body {
 }
 
 .botonera {
-    margin-top: 500px;
+    margin-top: 370px;
     display: flex;
     
 }
+ul{
+    margin-top: 15px;
+}
 
 a {
-    width: 80px;
+    display: block;
+    width: 180px;
     text-decoration: none;
     margin: 10px;
-    color: #fff;
-    display: block;
-    background-color: green;
-    padding: 20px;
+    color: white;
+    background-color: gray;
+    padding: 10px;
     border-radius: 25px;
+    text-align: center;
+}
 
+a:hover{
+    background-color: crimson;
+    border: 2px solid green;
 }
